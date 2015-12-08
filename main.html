@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/Bootstrap/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="css/Bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link href="css/photon.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+
+        <title>System Monitor</title>
+    </head>
+    <body>
+        <header>
+
+        </header>
+
+        <ul class="nav nav-pills">
+            <li class="active">
+                <a data-toggle="pill" href="#home"><span class="icon icon-gauge"></span> System</a></li>
+            <li><a data-toggle="pill" href="#menu1">Menu 1</a></li>
+            <li><a data-toggle="pill" href="#menu2">Menu 2</a></li>
+            <button id="btnHelp" class="btn btn-default pull-right">
+                <span class="icon icon-help-circled"></span>
+            </button>
+        </ul>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <h3>System</h3>
+                <p>Some content.</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h3>Menu 1</h3>
+                <p>Some content in menu 1.</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h3>Menu 2</h3>
+                <p>Some content in menu 2.</p>
+            </div>
+        </div>
+
+        <footer class="toolbar toolbar-footer">
+            <h1 class="title pull-left text-primary">Artur Olech</h1>
+        </footer>
+
+    </body>
+
+
+    <script type="text/javascript">
+    window.$ = window.jQuery = require('jquery');
+    </script>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/Bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootbox.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/hotkeys.js"></script>
+
+</html>

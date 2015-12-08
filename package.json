@@ -1,0 +1,20 @@
+{
+  "name": "system-monitor",
+  "version": "1.0.0",
+  "description": "System monitor",
+  "main": "./js/app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Artur Olech",
+  "license": "ISC",
+  "devDependencies": {
+    "bootbox": "^4.4.0",
+    "bootstrap": "^3.3.6",
+    "budo": "^7.0.2",
+    "electron-prebuilt": "^0.35.4",
+    "jquery": "^2.1.4",
+    "photon": "^1.0.4",
+    "watchify": "^3.6.1"
+  }
+}

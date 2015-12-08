@@ -1,0 +1,23 @@
+
+.tab-content {
+    padding: 10px;
+}
+.nav li a {
+    padding: 5px 10px;
+}
+
+.nav-pills > li > a {
+    border-radius: 0;
+}
+
+footer .title {
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+footer {
+    position: fixed;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+}
